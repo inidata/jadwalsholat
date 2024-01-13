@@ -1,0 +1,45 @@
+header,
+footer,
+#countdown {
+  text-align: center;
+}
+
+#countdown {
+  margin-bottom: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.prayer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.next {
+  color: red;
+}
+
+.saweria {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: orange;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0.2rem 0.2rem 0rem black;
+  border-radius: 0.5rem;
+  transition-duration: 0.3s;
+}
+
+.saweria:hover {
+  box-shadow: 0 0 0 black;
+}
